@@ -1,0 +1,24 @@
+17:51:15.618 [main] INFO  com.zhang.mybatisplusdemo.MybatisPlusDemoApplication - Starting MybatisPlusDemoApplication on LAPTOP-66TO33O4 with PID 18728 (D:\workspace\mybatis-plus-demo\target\classes started by huanhuan in D:\workspace\mybatis-plus-demo)
+17:51:15.630 [main] INFO  com.zhang.mybatisplusdemo.MybatisPlusDemoApplication - No active profile set, falling back to default profiles: default
+17:51:17.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:51:17.087 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:51:17.088 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+17:51:17.090 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+17:51:17.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+17:51:17.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17:51:17.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:51:18.135 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+17:51:18.206 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:51:18.424 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:51:18.616 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:51:19.195 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:51:19.507 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+17:51:19.524 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:51:19.554 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+17:51:19.700 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:51:19.745 [main] INFO  com.zhang.mybatisplusdemo.MybatisPlusDemoApplication - Started MybatisPlusDemoApplication in 4.672 seconds (JVM running for 6.703)
+17:52:20.083 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:52:20.152 [http-nio-8080-exec-1] INFO  com.zhang.mybatisplusdemo.aop.LogAspect -  ****** 记录日志 [start] :Fri May 08 17:52:20 CST 2020 ****** 
+17:52:20.156 [http-nio-8080-exec-1] INFO  com.zhang.mybatisplusdemo.controller.UserController - 开始执行:更新用户的方法
+17:52:20.201 [http-nio-8080-exec-1] ERROR com.zhang.mybatisplusdemo.aop.LogAspect - 执行com.zhang.mybatisplusdemo.controller.UserController/update方法时出现异常
+17:52:20.520 [http-nio-8080-exec-1] INFO  com.zhang.mybatisplusdemo.aop.LogAspect -  ******* 记录日志结束 [end]  ****** 

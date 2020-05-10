@@ -22,3 +22,5 @@
 17:52:20.156 [http-nio-8080-exec-1] INFO  com.zhang.mybatisplusdemo.controller.UserController - 开始执行:更新用户的方法
 17:52:20.201 [http-nio-8080-exec-1] ERROR com.zhang.mybatisplusdemo.aop.LogAspect - 执行com.zhang.mybatisplusdemo.controller.UserController/update方法时出现异常
 17:52:20.520 [http-nio-8080-exec-1] INFO  com.zhang.mybatisplusdemo.aop.LogAspect -  ******* 记录日志结束 [end]  ****** 
+18:09:17.130 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:09:17.135 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

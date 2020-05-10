@@ -82,6 +82,7 @@ public class LogAspect {
             op.setOperatorResult("true");
             return object;
         } catch (Exception exception) {
+            exception.getStackTrace();
             op.setOperatorResult("false");
             logger.error("执行"+op.getOperateClass()+"下的"+op.getOperateMethod()+"方法时出现异常");
             if(exception instanceof CommonException){
